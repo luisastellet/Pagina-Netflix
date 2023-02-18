@@ -149,6 +149,8 @@ footer{
     position: absolute;
     top: 800;
     left: 0;
+    justify-content: center;
+    margin-bottom: 100%;
 }
 
 footer p{
@@ -156,11 +158,17 @@ footer p{
     margin-top: 35px;
 }
 
+footer div{
+    margin: 0px, 48.25px, 0px, 48.2375px;
+    padding: 30px, 0px;
+}
+
 .options{
     display: flex;
     align-items: center;
     flex-direction: row;
     margin-left: 120px;
+    justify-content: center;
 }
 
 .options a{
@@ -180,14 +188,18 @@ footer p{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: 120px;
+    margin-left: 10px;
+    justify-content: center;
 }
 
 .options_two a{
     color: grey;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    padding: 60px;
+    padding-left: 50px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+    padding-top: 10px;
     margin-top: -100;
     text-decoration: underline;
 }
@@ -196,13 +208,7 @@ footer p{
     text-decoration: underline;
 }
 
-.information{
-    margin-left: -15px;
-}
-
 select{
-    margin-top: -50px;
-    margin-left: 170px;
     background-color: black;
     width: 130px;
     height: 50px;
@@ -210,6 +216,10 @@ select{
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     padding: 10px;
+}
+
+.information{
+    margin-left: -15px;
 }
 
 .message{
