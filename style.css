@@ -16,8 +16,9 @@
 }
 
 body{
-    background-image: url(Imagens/pag_inicial.png);
+    background-image: url(Imagens/pag_inicial_escura.png);
     background-size: 100%;
+    opacity: 0.92;
 }
 
 .container_center{
@@ -29,6 +30,7 @@ body{
     width: 450px;
     height: 600px;
     background-color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 120px;
 }
 
 .container h1{
@@ -150,11 +152,10 @@ footer{
     top: 800;
     left: 0;
     justify-content: center;
-    margin-bottom: 100%;
 }
 
 footer p{
-    margin-left: 180px;
+    margin-left: 200px;
     margin-top: 35px;
 }
 
@@ -167,16 +168,16 @@ footer div{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: 120px;
-    justify-content: center;
+    justify-content: left;
 }
 
 .options a{
     color: grey;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    padding: 60px;
-    margin-top: -30px;
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 2px;
     text-decoration: none;
 }
 
@@ -184,27 +185,24 @@ footer div{
     text-decoration: underline;
 }
 
-.options_two{
+.options2{
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: 10px;
-    justify-content: center;
+    justify-content: left;
 }
 
-.options_two a{
+.options2 a{
     color: grey;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    padding-left: 50px;
-    padding-right: 60px;
-    padding-bottom: 80px;
-    padding-top: 10px;
-    margin-top: -100;
-    text-decoration: underline;
+    padding-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    text-decoration: none;
 }
 
-.options_two a:hover{
+.options2 a:hover{
     text-decoration: underline;
 }
 
@@ -215,11 +213,8 @@ select{
     color: grey;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    padding: 10px;
-}
-
-.information{
-    margin-left: -15px;
+    margin-left: 200px;
+    margin;
 }
 
 .message{
@@ -234,8 +229,6 @@ select{
     color: orange;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    
 }
-
 
 
