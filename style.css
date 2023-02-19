@@ -28,7 +28,7 @@ body{
 
 .container{
     width: 450px;
-    height: 600px;
+    height: 650px;
     background-color: rgba(0, 0, 0, 0.9);
     margin-bottom: 120px;
 }
@@ -155,7 +155,7 @@ footer{
 }
 
 footer p{
-    margin-left: 200px;
+    margin-left: 210px;
     margin-top: 35px;
 }
 
@@ -175,9 +175,10 @@ footer div{
     color: grey;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    padding-left: 200px;
+    padding-left: 210px;
     padding-top: 30px;
     padding-bottom: 2px;
+    border-right: -20px;
     text-decoration: none;
 }
 
@@ -196,10 +197,11 @@ footer div{
     color: grey;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    padding-left: 200px;
+    padding-left: 210px;
     padding-top: 15px;
     padding-bottom: 35px;
     text-decoration: none;
+    align-content: center;
 }
 
 .options2 a:hover{
@@ -213,8 +215,7 @@ select{
     color: grey;
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
-    margin-left: 200px;
-    margin;
+    margin-left: 210px;
 }
 
 .message{
@@ -230,5 +231,3 @@ select{
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
 }
-
-
